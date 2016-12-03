@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>SNMP Fun</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/theme/css/main.css" />
+</head>
+<body>
+
+    <div class="navigation pure-menu pure-menu-horizontal">
+        <a href="/" class="pure-menu-heading  pure-menu-link">tech babbles</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"></li>
+
+            <li class="pure-menu-item"><a href="/category/arm.html" class="pure-menu-link">ARM</a></li>
+            <li class="pure-menu-item"><a href="/category/bmx.html" class="pure-menu-link">BMX</a></li>
+            <li class="pure-menu-item"><a href="/category/certs.html" class="pure-menu-link">Certs</a></li>
+            <li class="pure-menu-item"><a href="/category/conference.html" class="pure-menu-link">Conference</a></li>
+            <li class="pure-menu-item"><a href="/category/esp8266.html" class="pure-menu-link">esp8266</a></li>
+            <li class="pure-menu-item"><a href="/category/freebsd.html" class="pure-menu-link">FreeBSD</a></li>
+            <li class="pure-menu-item"><a href="/category/freebsd-crochet.html" class="pure-menu-link">FreeBSD crochet</a></li>
+            <li class="pure-menu-item"><a href="/category/gaming-linux-kvm-windows-m.html" class="pure-menu-link">Gaming, Linux, KVM, Windows, M$</a></li>
+            <li class="pure-menu-item"><a href="/category/gnulinux.html" class="pure-menu-link">GNU/Linux</a></li>
+            <li class="pure-menu-item"><a href="/category/guitar.html" class="pure-menu-link">Guitar</a></li>
+            <li class="pure-menu-item"><a href="/category/holiday.html" class="pure-menu-link">Holiday</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="/category/labs.html" class="pure-menu-link">Labs</a></li>
+            <li class="pure-menu-item"><a href="/category/layer1.html" class="pure-menu-link">Layer1</a></li>
+            <li class="pure-menu-item"><a href="/category/life.html" class="pure-menu-link">Life</a></li>
+            <li class="pure-menu-item"><a href="/category/nas.html" class="pure-menu-link">NAS</a></li>
+            <li class="pure-menu-item"><a href="/category/notes.html" class="pure-menu-link">Notes</a></li>
+            <li class="pure-menu-item"><a href="/category/openwrt.html" class="pure-menu-link">OpenWRT</a></li>
+            <li class="pure-menu-item"><a href="/category/sdr-arduino.html" class="pure-menu-link">SDR, Arduino</a></li>
+            <li class="pure-menu-item"><a href="/category/tools.html" class="pure-menu-link">Tools</a></li>
+            <li class="pure-menu-item"><a href="/category/updates.html" class="pure-menu-link">Updates</a></li>
+        </ul>
+    </div>
+
+
+<div class="page-container">
+    <div class="entry-content">
+        <div class="post-meta pure-g">
+            <div class="pure-u">
+                <a href="/category/labs.html"><img src="http://s3.evcdn.com/images/block/I0-001/032/153/298-4.png_/open-level-computer-lab-98.png " class="post-avatar" alt="Labs"></a>
+            </div>
+<div class="pure-u-3-4 meta-data">
+    <a href="/category/labs.html" class="category">Labs</a><br />
+
+    <a class="author" href="/author/reese.html">Reese</a>
+    &mdash; <abbr title="2016-11-27T18:00:00-05:00">Sun 27 November 2016</abbr>
+</div>        </div>
+    </div>
+
+    <div class="article-header-container">
+        <div class="background-image-container">
+
+            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(http://terraltech.com/wp-content/uploads/2015/01/snmp.png?76a024);">
+                <img src="http://terraltech.com/wp-content/uploads/2015/01/snmp.png?76a024" alt="SNMP Fun">
+                <div class="title">
+                <h1>
+                    SNMP Fun
+                </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-content">
+        <h1>Cacti</h1>
+<p>For quite some time on the podcasts I listen to I've heard talk about server monitoring for example Nagios and Zabbix. Having no experience in this and it sounded pretty intriguing. I created a fresh jail on my FreeNAS Mini and got busy. Not knowing where to start I did a google search for <code>network monitoring</code>. I seen a lot of information about Cacti and it seemed to be a good starting point.</p>
+<p>I started out with <a href="https://dnaeon.github.io/cacti-freebsd/">this guide</a>. I failed to realise that the binary package for cacti did not install <code>mysql56-server</code>. I found a great <a href="https://www.digitalocean.com/community/tutorials/how-to-install-an-apache-mysql-and-php-famp-stack-on-freebsd-10-1">guide</a> from the good folks at Digital Ocean, they have great tutorials. After I got Cacti up and running the next logical step was to add devices. I found a <a href="http://docs.cacti.net/usertemplate:host:freebsd">
+FreeBSD</a> it took a few times messing with the template and forgetting to add the cron script. <em>Eventually I had Graphs!</em>. I was able to find a template for my <a href="http://docs.cacti.net/usertemplate:host:mikrotik">Mikrotik switch</a> also. After figuring out how to enable snmp on OpenWRT as described <a href="https://wiki.openwrt.org/doc/howto/snmp.server">here</a> I had many data sources for the graphs.</p>
+<p>After getting all my SNMP devices enabled and graph I was looking for more things to add. I figured all the systems log so why not try <a href="http://docs.cacti.net/plugin:syslog">a syslog plugin</a>. Under the Prerequisites I noticed &gt; Cacti Settings plugin is required. After installing both plugins I was unable to get the logs from the remote system showing. I could see the logs coming across the network from a packet capture and verify they got wrote in the cacti host. Strange thing is when I
+went to install the syslog plugin I got a error saying I needed more plugins. One was <a href="http://docs.cacti.net/plugin:settings">settings</a> the other was <a href="http://docs.cacti.net/manual:087:1_installation.9_pia">PIA</a>. While troubleshooting this I skimmed the release notes and noticed <a href="http://cacti.net/release_notes_0_8_8.php">this</a> <em>Plugin Architecture is now part of Cacti</em>?? are the plugins or directions not up to date? pretty confusing. Before figuring out the
+culpret I talked with a comrade about the Cacti issue. His response: &gt;&gt;Fuck Cacti, look at LibreNMS.</p>
+<h2>LibreNMS</h2>
+<p>The landing page for LibreNMS looked more updated then Cacti, when I seen the <a href="http://www.librenms.org/#try">live demo</a> I was sold. There is no hassle with template in Cacti. By default LibreNMS has auto discovery that will scan the networks you define in the config file every 6 hours for new devices. The mouse over graphs are very nice. The website UI is way more user friendly. I have played with the alerts to send to Slack. I'm sure that I'll add more extensions down the road. That's all for
+now!</p>
+<p>Thanks for reading</p>
+    </div>
+
+    <footer>
+        <div class="pure-g post-footer">
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pure-g poster-info">
+                    <div class="pure-u">
+                        <a href="/author/reese.html"><img src="https://lh6.googleusercontent.com/-zEMaXmWAhdI/AAAAAAAAAAI/AAAAAAAAAAA/eVdgsm3TIDU/s128-c-k/photo.jpg" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="/author/reese.html">Reese</a></h3>
+                        <p class="author-description">
+                          
+            I enjoy blogging about technology and tinkering with various things.
+        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pure-u-1 pure-u-md-1-2">
+
+                <div class="pure-g post-category-info">
+                    <div class="pure-u">
+                        <a href="/category/labs.html"><img src="http://s3.evcdn.com/images/block/I0-001/032/153/298-4.png_/open-level-computer-lab-98.png" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="/category/labs.html">Labs</a></h3>
+                        <p class="author-description">
+                          A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas and dust, and dark matter.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <div class="entry-content">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'techbabble';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+
+</div>
+
+
+
+    <footer class="index-footer">
+
+        <a href="/" title="tech babbles">tech babbles</a>
+        <a href="/category/arm.html">ARM</a>
+        <a href="/category/bmx.html">BMX</a>
+        <a href="/category/certs.html">Certs</a>
+        <a href="/category/conference.html">Conference</a>
+        <a href="/category/esp8266.html">esp8266</a>
+        <a href="/category/freebsd.html">FreeBSD</a>
+        <a href="/category/freebsd-crochet.html">FreeBSD crochet</a>
+        <a href="/category/gaming-linux-kvm-windows-m.html">Gaming, Linux, KVM, Windows, M$</a>
+        <a href="/category/gnulinux.html">GNU/Linux</a>
+        <a href="/category/guitar.html">Guitar</a>
+        <a href="/category/holiday.html">Holiday</a>
+        <a href="/category/labs.html">Labs</a>
+        <a href="/category/layer1.html">Layer1</a>
+        <a href="/category/life.html">Life</a>
+        <a href="/category/nas.html">NAS</a>
+        <a href="/category/notes.html">Notes</a>
+        <a href="/category/openwrt.html">OpenWRT</a>
+        <a href="/category/sdr-arduino.html">SDR, Arduino</a>
+        <a href="/category/tools.html">Tools</a>
+        <a href="/category/updates.html">Updates</a>
+        <a href="http://getpelican.com/">Pelican</a>
+        <a href="http://python.org/">Python.org</a>
+        <a href="http://jinja.pocoo.org/">Jinja2</a>
+        <a href="#">You can modify those links in your config file</a>
+
+    </footer>
+
+</body>
+</html>
