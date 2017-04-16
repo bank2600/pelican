@@ -47,12 +47,15 @@ MEDIUS_CATEGORIES = {
         'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ARM_logo.svg/2000px-ARM_logo.svg.png',
         'thumbnail': 'https://www.arm.com/assets/images/ARM_Logo_Corporate_Blue.png'
     }
-
+}
+MEDIUS_CATEGORIES = {
     'Labs': {
         'description': 'Learning @ ~/',
         'logo': 'https://www.seas.harvard.edu/sites/default/files/images/Teaching%20Labs/MD%20B%20EE.jpg',
         'thumbnail': 'http://s3.evcdn.com/images/block/I0-001/032/153/298-4.png_/open-level-computer-lab-98.png'
     }
+}
+MEDIUS_CATEGORIES = {
     'Life': {
         'description': 'Learning @ ~/',
         'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1200px-LIFE_magazine_logo.svg.png',
