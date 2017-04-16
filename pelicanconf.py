@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 THEME = "medius"
-AUTHOR = u'trexor'
+AUTHOR = u'Reese'
 SITENAME = u'tech babbles'
 SITEURL = ''
 
@@ -42,11 +42,23 @@ MEDIUS_AUTHORS = {
     }
 }
 MEDIUS_CATEGORIES = {
+    'ARM': {
+        'description': 'mini me',
+        'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ARM_logo.svg/2000px-ARM_logo.svg.png',
+        'thumbnail': 'https://www.arm.com/assets/images/ARM_Logo_Corporate_Blue.png'
+    }
+
     'Labs': {
-        'description': 'A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas and dust, and dark matter.',
+        'description': 'Learning @ ~/',
         'logo': 'https://www.seas.harvard.edu/sites/default/files/images/Teaching%20Labs/MD%20B%20EE.jpg',
         'thumbnail': 'http://s3.evcdn.com/images/block/I0-001/032/153/298-4.png_/open-level-computer-lab-98.png'
     }
+    'Life': {
+        'description': 'Learning @ ~/',
+        'logo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LIFE_magazine_logo.svg/1200px-LIFE_magazine_logo.svg.png',
+        'thumbnail': 'https://www.timeinc.com/wp-content/uploads/2014/03/life_logo.svg'
+    }
+
 }
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
