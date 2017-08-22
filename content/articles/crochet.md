@@ -2,7 +2,7 @@ Title: FreeBSD crochet
 Date: 2015-09-07 10:20
 Category: FreeBSD crochet
 Tags: FreeBSD, crochet
-Slug: crochet-will-it-work?
+Slug: crochet-will-it-work
 Authors: Reese
 
 Wonder if this will work? I just read the how to build a image and uncommented some lines. This is running on a FreeNAS Mini with FreeBSD HEAD in a virtualbox Jail.
