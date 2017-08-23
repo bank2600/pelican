@@ -1,7 +1,6 @@
 Title: FreeBSD crochet 
 Date: 2015-09-07 10:20
 Category: FreeBSD crochet
-Tags: FreeBSD, crochet
 Slug: crochet-will-it-work
 Authors: Reese
 

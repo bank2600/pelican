@@ -10,5 +10,8 @@ GNU/Linux:`find . -type f | xargs sed -i  's/trexor/Reese/g'`
 
 FreeBSD:`find . -type f | xargs sed -i '' 's/trexor/Reese/g'`
 
-I found the original command and soultion on stackoverflow.
+I found the original command and solution on stackoverflow.
+
+#Update 
+.Date: 2017-08-22 22:00
 

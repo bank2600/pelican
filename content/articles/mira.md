@@ -1,7 +1,6 @@
 Title: Dave Mirra
 Date: 2016-06-02 22:05
 Category: BMX
-Tags: BMX, XGames
 Slug: doublebackflip
 Authors: Reese
 Summary: Catching up on three day weekend.

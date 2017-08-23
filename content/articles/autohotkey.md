@@ -1,7 +1,6 @@
 Title: Auto hot key
 Date: 2016-04-03 01:00
 Category: Tools
-Tags: GNU/Linux, Vim
 Slug: autohotkey
 Authors: Reese
 Summary: Changing windows keyboard bindings.  

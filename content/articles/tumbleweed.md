@@ -1,7 +1,6 @@
 Title: OpenSuse Tumbleweed
 Date: 2016-04-10 07:05
 Category: GNU/Linux
-Tags: GNU/Linux, 
 Slug: distrohopping
 Authors: Reese
 Summary: Distrohopping 

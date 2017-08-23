@@ -1,7 +1,6 @@
 Title: My Gaming Habbit
 Date: 2015-08-30 10:20
-Category: Gaming, Linux, KVM, Windows, M$
-Tags: Gaming, Linux, KVM, Windows, M$
+Category: Gaming, OS
 Slug: kvm-vga-passthrough-linux
 Authors: Reese
 
@@ -11,6 +10,3 @@ Just read tonight that [4.2 is out!](https://lkml.org/lkml/2015/8/30/96 "4.2"), 
 
 **More on the specs later**
 
-##Update
-
-Why the hell should I have to go into the registery on a Windows 8 after a fresh install? [regedit](http://answers.microsoft.com/en-us/windows/forum/windows_8-windows_install/windows-8-pro-upgrade-product-key-cant-be-used-to/1726d238-98fb-4634-a468-04645a8ee097 "regedit") Just to get the key to be accepted...

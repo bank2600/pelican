@@ -1,7 +1,6 @@
 Title:Switching Dad to GNU/Linux 
 Date: 2016-03-06 07:05
 Category:GNU/Linux` 
-Tags: GNU/Linux, ElementreyOS, Ubuntu 
 Slug: Dad-Linux 
 Authors: Reese
 Summary: Repleaced Windows XP with GNU/Linux

@@ -1,7 +1,6 @@
 Title: RF and more Arduino
 Date: 2016-06-26 14:35
 Category: SDR, Arduino
-Tags: SDR, Arduino
 Slug: rflayer0
 Authors: Reese
 Summary: More Arduino labs and SDR RF fun.
