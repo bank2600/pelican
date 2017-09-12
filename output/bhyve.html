@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Broke FreeBSD</title>
+        <title>bhyve</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
@@ -19,9 +19,9 @@
             <li class="pure-menu-item"><a href="/category/arm.html" class="pure-menu-link">ARM</a></li>
             <li class="pure-menu-item"><a href="/category/bmx.html" class="pure-menu-link">BMX</a></li>
             <li class="pure-menu-item"><a href="/category/certs.html" class="pure-menu-link">Certs</a></li>
-            <li class="pure-menu-item"><a href="/category/conference.html" class="pure-menu-link">Conference</a></li>
+            <li class="pure-menu-item pure-menu-selected"><a href="/category/conference.html" class="pure-menu-link">Conference</a></li>
             <li class="pure-menu-item"><a href="/category/esp8266.html" class="pure-menu-link">esp8266</a></li>
-            <li class="pure-menu-item pure-menu-selected"><a href="/category/freebsd.html" class="pure-menu-link">FreeBSD</a></li>
+            <li class="pure-menu-item"><a href="/category/freebsd.html" class="pure-menu-link">FreeBSD</a></li>
             <li class="pure-menu-item"><a href="/category/freebsd-crochet.html" class="pure-menu-link">FreeBSD crochet</a></li>
             <li class="pure-menu-item"><a href="/category/gaming-os.html" class="pure-menu-link">Gaming, OS</a></li>
             <li class="pure-menu-item"><a href="/category/gnulinux.html" class="pure-menu-link">GNU/Linux</a></li>
@@ -46,10 +46,10 @@
     <div class="entry-content">
         <div class="post-meta pure-g">
 <div class="pure-u-3-4 meta-data">
-    <a href="/category/freebsd.html" class="category">FreeBSD</a><br />
+    <a href="/category/conference.html" class="category">Conference</a><br />
 
     <a class="author" href="/author/reese.html">Reese</a>
-    &mdash; <abbr title="2016-07-02T14:00:00-04:00">Sat 02 July 2016</abbr>
+    &mdash; <abbr title="2017-09-11T12:58:00-04:00">Mon 11 September 2017</abbr>
 </div>        </div>
     </div>
 
@@ -58,14 +58,19 @@
 
             <div class="background-image-small">
                 <div class="title-container">
-                    <h1>Broke FreeBSD</h1>
+                    <h1>bhyve</h1>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="entry-content">
-        <p>I nuked my install messing with LibreSSL but was not aware untill I rebooted. </p>
+        <p>With the release of FreeNAS 11 it's now possible to run other operating systems without using the linuxemulation layer. I'll make a list below of some things I observed. </p>
+<p><code>1. Windows10   - Needed to use updated virtio drivers from [RedHat](https://fedoraproject.org/wiki/Windows_Virtio_Drivers)
+2. Server 2012 - *same as above.
+3. CentOS
+4. Fedora
+5. Arch</code></p>
     </div>
 
     <footer>
