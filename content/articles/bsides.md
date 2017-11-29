@@ -1,6 +1,5 @@
 Title: BSides Nashville
 Date: 2016-04-16 00:05
-Category: Conference
 Slug: Mini-roadtrip
 Authors: Reese
 Summary: Wild ride through the hills.

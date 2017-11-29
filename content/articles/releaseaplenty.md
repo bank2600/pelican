@@ -1,6 +1,5 @@
 Title: Release a plenty
 Date: 2016-03-24 15:25
-Category: Updates
 Slug: releas-a-plenty
 Authors: Reese
 Summary: Update 

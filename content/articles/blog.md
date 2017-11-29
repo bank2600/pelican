@@ -1,6 +1,5 @@
 Title: My Gaming Habbit
 Date: 2015-08-30 10:20
-Category: Gaming, OS
 Slug: kvm-vga-passthrough-linux
 Authors: Reese
 

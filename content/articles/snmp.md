@@ -1,6 +1,5 @@
 Title: SNMP Fun
 Date: 2016-11-27 18:00
-Category: Labs
 Authors: Reese
 Summary: SNMP for all
 Cover: http://terraltech.com/wp-content/uploads/2015/01/snmp.png?76a024

@@ -1,6 +1,5 @@
 Title: sed
 Date: 2016-11-30 12:00
-Category: Notes
 Authors: Reese
 Cover: http://cdn.computerhope.com/linux/sed.gif
 

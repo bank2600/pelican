@@ -1,6 +1,5 @@
 Title: OpenWRT on WD router. 
 Date: 2016-03-08 09:05
-Category: OpenWRT
 Slug: OpenWRT install
 Authors: Reese
 Summary: OpwnWrt on cheap router

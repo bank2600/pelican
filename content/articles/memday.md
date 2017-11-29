@@ -1,6 +1,5 @@
 Title: Memorial Day
 Date: 2016-05-30 12:05
-Category: Holiday
 Slug: memorial-day
 Authors: Reese
 Summary: Catching up on three day weekend.

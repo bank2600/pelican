@@ -1,6 +1,5 @@
 Title: Odroid C2
 Date: 2016-03-24 23:05
-Category:ARM
 Slug: odroid-c2
 Authors: Reese
 Summary: Hardkernels new Odroid-C2

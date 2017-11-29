@@ -1,6 +1,5 @@
 Title: Hamshield
 Date: 2016-07-02 14:00
-Category: SDR, Arduino
 Slug: 8bitvhfuhf
 Authors: Reese
 Summary: 8 bit Ham Radio with Arduino HamShield.

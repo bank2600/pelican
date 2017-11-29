@@ -1,6 +1,5 @@
 Title: Waiting for respawn
 Date: 2016-04-06 10:20
-Category: Life
 Slug: waiting-for-respawn
 Authors: Reese 
 Summary: Player 2 down

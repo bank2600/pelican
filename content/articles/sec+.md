@@ -1,6 +1,5 @@
 Title:Security+ Exam
 Date: 2016-03-24 15:25
-Category: Certs
 Slug: pass-or-fail
 Authors: Reese
 Summary: Pass or Fail?

@@ -1,6 +1,5 @@
 Title:Getting-another-Guitar
 Date: 2016-03-11 23:05
-Category:Guitar
 Slug: Getting-another-Guitar
 Authors: Reese
 Summary: Should I get a guitar

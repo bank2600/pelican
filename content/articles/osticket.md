@@ -1,6 +1,5 @@
 Title: osTicket
 Date: 2017-04-07 15:00
-Category: Life, DIY
 Authors: Reese
 Summary: Getting organized
 Cover: http://osticket.com/sites/default/files/osticket-supsys-sm.png

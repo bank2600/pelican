@@ -1,6 +1,5 @@
 Title: FreeNAS oops
 Date: 2016-03-27 23:05
-Category: NAS
 Slug: FreeNAS-oops
 Authors: Reese
 Summary: I broke my FreeNAS

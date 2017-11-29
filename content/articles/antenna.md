@@ -1,6 +1,5 @@
 Title: Pizza pan antenna
 Date: 2016-07-02 14:00
-Category: FreeBSD
 Authors: Reese
 Summary: Broke install messing with LibreSSL
 

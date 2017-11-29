@@ -1,6 +1,5 @@
 Title: .gitoops
 Date: 2016-12-03 13:00
-Category: Labs
 Authors: Reese
 Summary: Multiple .git bad 
 Cover: https://www.atlassian.com/git/images/atlassian-getting-git-right.jpg
