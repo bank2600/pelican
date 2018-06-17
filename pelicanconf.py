@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-THEME = "medius"
+THEME = "/home/reese/pelican-themes/medius"
 AUTHOR = u'Reese'
 SITENAME = u'tech babbles'
 SITEURL = ''
